@@ -1,0 +1,227 @@
+/*****BASE STYLES*****/
+body{
+  font-family:'Montserrat', sans-serif;
+  color: #ffffff;
+  font-weight:500;
+}
+/*****GRID******/
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+}
+.third-width{
+  width:500px;
+  float:left;
+}
+.half-width-left{
+   width:500px;
+   padding: 0 50px 100px 0;
+   float:left;
+   margin: 0 auto;
+}
+.half-width-right{
+   width:550px;
+   padding: 0 25px 150px 50px;
+   float: left;
+   margin: 0 auto;
+}
+/******HEADER******/
+header{
+  height: 800px;
+  background: url('../img/hero-background.png');
+  background-size: cover;
+  margin: 0 auto;
+}
+.navbar{
+  background-color: #1f202b;
+  text-decoration: none;
+  color:#ffffff;
+  height: 60px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+header p{
+  float:left;
+  margin: 0 0 0 20px;
+  font-family:'Montserrat',sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  padding-top: 10px;
+}
+.navbar ul, li, a {
+  float: right;
+  display: inline-block;
+  margin: 0 20px 0 0;
+  font-family:'Montserrat',sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+header h1{
+  font-family:'Source Code pro', sans-serif;
+  font-size: 72px;
+  color: #ffffff;
+  padding: 300px 100px 100px 100px;
+  margin: 0 auto;
+  text-align: left;
+}
+header span{
+  color:#fa0075;
+}
+/*******PORTFOLIO******/
+#portfolio{
+  background-color:#1f202b;
+  padding:50px 96px 50px 96px;
+  height: 1600px;
+}
+#portfolio h2{
+  font-family:'Source Code Pro', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 100px;
+  color: #f70074;
+}
+#project-one .half-width-right  h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  padding: 0 0 5px 0;
+  margin: 0 auto;
+  clear: both;
+  text-align: left;
+}
+#project-one .half-width-right p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  padding: 0 0 5px 0;
+  margin: 0 auto;
+  clear: both;
+  text-align: left;
+  float: left;
+}
+#project-two .half-width-left  h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  padding: 0 0 5px 0;
+  margin: 0 auto;
+  clear: both;
+  text-align: left;
+}
+#project-two .half-width-left{
+  clear:left;
+}
+#project-two .half-width-left p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  padding: 0 0 5px 0;
+  margin: 0 auto;
+  clear: both;
+  text-align: left;
+}
+#project-three  h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  padding: 0 0 5px 0;
+  margin: 0 auto;
+  clear: both;
+  text-align: left;
+}
+#project-three p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  padding: 0 0 5px 0;
+  margin: 0 auto;
+  clear: both;
+  text-align: left;
+}
+/******ABOUT*******/
+#about{
+  height:700px;
+  background: url('../img/about-me.png');
+  background-size: cover;
+  margin: 0 auto;
+}
+#about h2{
+  font-family: 'Source Code Pro', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  color:#fa0075;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+#about p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 200px;
+  color: #1f202b;
+  font-weight: 70%;
+}
+/******CONTACT******/
+#contact{
+  background-color:#1f202b;
+  color: white;
+  margin: 0 auto;
+}
+.contact h3{
+  font-family:'Source Code Pro', sans-serif;
+  font-size: 36px;
+  padding: 70px 100px 90px 100px;
+  text-align: center;
+  margin: 0 auto;
+  color:#f70074;
+}
+.contact-info{
+  display:inline-block;
+  padding: 0 50px 0 250px;
+  margin: 0 auto;
+}
+ .one{
+  display: inline-block;
+  float: left;
+  padding: 0 50px 0 50px;
+}
+.one h4, p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  text-align:center;
+
+}
+ .two{
+  float: left;
+  display: inline-block;
+  padding: 0 30px 0 30px;
+}
+.two h4, p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  text-align:center;
+
+}
+.two img{
+   padding: 20px;
+}
+ .three{
+  float: left;
+  display:inline-block;
+  padding: 0 20px 0 20px;
+}
+.three h4, p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  text-align:center;
+
+}
+.copyright{
+  background-color:#1f202b;
+  color: white;
+  margin: 0  0;
+  clear: both;
+  padding:150px 0 15px 0;
+}
+.copyright p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-align:center;
+  color:#ffffff;
+}
